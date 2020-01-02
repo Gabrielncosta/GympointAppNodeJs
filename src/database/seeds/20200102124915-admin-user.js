@@ -2,7 +2,7 @@ const bcrypt = require("bcryptjs");
 
 module.exports = {
   up: QueryInterface => {
-    return QueryInterface.bulkInsert(
+    return QueryInterface (
       "users",
       [
         {
